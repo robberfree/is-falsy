@@ -1,6 +1,6 @@
 {
   "name": "@robberfree/is-falsy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Detect whether a value is falsy.",
   "main": "index.js",
   "repository": {
