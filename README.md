@@ -13,7 +13,7 @@ Detect whether a value is falsy.
 2. node
 
 ```
-npm install isFalsy
+npm install is-falsy
 ```
 
 ## Reference Documents
