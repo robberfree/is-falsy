@@ -1,0 +1,26 @@
+{
+  "name": "isfalsy",
+  "version": "1.0.0",
+  "description": "Detect whether a value is falsy.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robberfree/isFalsy.git"
+  },
+  "keywords": [
+    "falsy",
+    "truthy"
+  ],
+  "author": "robberfree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robberfree/isFalsy/issues"
+  },
+  "homepage": "https://github.com/robberfree/isFalsy#readme",
+  "devDependencies": {
+    "uglify-js": "^3.4.9"
+  },
+  "scripts": {
+    "build": "uglifyjs ./index.js -o ./isFalsy.min.js -c -m -d module.exports=false"
+  }
+}
