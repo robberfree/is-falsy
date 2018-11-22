@@ -1,4 +1,4 @@
-# isFalsy
+# is-falsy
 
 Detect whether a value is falsy.
 
@@ -7,7 +7,7 @@ Detect whether a value is falsy.
 1. broswer
 
 ```html
-<script src="./isFalsy.min.js"></script>
+<script src="./is-falsy.min.js"></script>
 ```
 
 2. node

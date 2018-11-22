@@ -9,18 +9,20 @@
   },
   "keywords": [
     "falsy",
-    "truthy"
+    "truthy",
+    "false",
+    "true"
   ],
   "author": "robberfree",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/robberfree/isFalsy/issues"
+    "url": "https://github.com/robberfree/is-falsy/issues"
   },
-  "homepage": "https://github.com/robberfree/isFalsy#readme",
+  "homepage": "https://github.com/robberfree/is-falsy#readme",
   "devDependencies": {
     "uglify-js": "^3.4.9"
   },
   "scripts": {
-    "build": "uglifyjs ./index.js -o ./isFalsy.min.js -c -m -d module.exports=false"
+    "build": "uglifyjs ./index.js -o ./is-falsy.min.js -c -m -d module.exports=false"
   }
 }
