@@ -10,8 +10,8 @@ function isFalsy(value) {
     value === null ||
     value === NaN ||
     value === 0 ||
-    value === ""
+    value === "" ||
+    (Object.prototype.toString.call(document) === "[object HTMLDocument]" &&
+      value === document.all)
   );
 }
-
-module.exports = isFalsy;

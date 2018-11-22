@@ -1,18 +1,18 @@
 # is-falsy
 
-Detect whether a value is falsy.
+Detect whether a value is falsy in javascript.
 
 ## Usage
 
 1. broswer
 
 ```html
-<script src="./is-falsy.min.js"></script>
+<script src="./is-falsy.js"></script>
 ```
 
 2. node
 
-```
+```shell
 npm install @robberfree/is-falsy
 ```
 
