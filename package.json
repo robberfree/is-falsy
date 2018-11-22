@@ -1,5 +1,5 @@
 {
-  "name": "is-falsy",
+  "name": "@robberfree/is-falsy",
   "version": "1.0.0",
   "description": "Detect whether a value is falsy.",
   "main": "index.js",
